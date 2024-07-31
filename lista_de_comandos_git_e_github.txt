@@ -1,0 +1,60 @@
+1) mkdir fundamentos-em-sistemas-para-internet
+
+2) ls  dir  cd c:/diretorio_desejado
+
+3) git init
+
+4) git status
+
+5) touch .gitignore
+
+6) mv bases_numericas_fsi.pdf c:/users/pedro/fundamentos-em-sistemas-para-internet
+git add .   ou   git add bases_numericas_fsi.pdf
+
+7) git status
+
+8) git commit -m "Exercícios de bases numéricas"
+
+9) git log
+
+10) git log --pretty=oneline
+
+11) git show
+
+12) mv lâmpadas.java c:/users/pedro/fundamentos-em-sistemas-para-internet
+
+13) git status
+
+14) git add lâmpadas.java
+
+15) git commit -m "Inclusão da classe Lógica de Programação"
+
+16) vi lâmpadas.java
+*Pressionar a tecla i para editar;
+*Digitar :wq para salvar e sair, respectivamente.
+
+17) git diff
+
+18) git commit -am "Adição de comentário"
+
+19) git diff 4f6fca8 efb9e67 (ver diferença entre 2 commits)
+
+20) git rm lâmpadas.java
+git commit -m "Classe removida pois foi
+adicionada no repositório indevido"
+
+21) git mv Bases_binarias_FSI.pdf FSI_Atividade_Avaliativa_1.pdf
+
+22) git commit -m "Arquivo renomeado"
+
+23) Repositório criado.
+
+24) Professor adicionado como colaborador.
+
+25) git remote add origin https://github.com/pedroaalexandre/fsi.git
+
+26) git branch -M main
+git push -u origin main
+
+
+
